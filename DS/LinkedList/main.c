@@ -9,7 +9,6 @@
 
 struct Node{
     int data;
-    float Data;
     struct Node *next;
 };
 
@@ -29,6 +28,7 @@ int main(){
     a->next = b;
     b->next = c;
     c->next = NULL;
+    
     //Traverse in Linklist
     
     while(a != NULL){
