@@ -15,6 +15,8 @@ int main(int argc, const char * argv[]) {
         
         while(hole >0 && a[hole-1] > value){
             a[hole] = a[hole - 1];
+            
+            // pari na R.......
         }
     }
     
