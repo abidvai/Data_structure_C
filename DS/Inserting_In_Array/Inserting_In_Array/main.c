@@ -26,7 +26,7 @@ int main()
     
     
     
-    for(i=size;i>=pos;i--)
+    for(i=size;i>=pos-1;i--)
     {
         
         a[i]=a[i-1];
