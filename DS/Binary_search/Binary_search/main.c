@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
         if(a[middle] == item){
             printf("Item found at index: %d\n",middle);
             return 0;
-        }else if(a[middle < item]){
+        }else if(a[middle] < item){
             left = middle + 1;
         }else{
             right = middle - 1;
