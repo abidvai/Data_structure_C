@@ -16,7 +16,7 @@ void inser(int arr[], int length){
         
         while(j >= 0 && arr[j] > key){
             arr[j+1] = arr[j];
-            j = j-1;
+            j--;
         }
         arr[j+1] = key;
     }
@@ -24,7 +24,7 @@ void inser(int arr[], int length){
 
 
 int main(int argc, const char * argv[]) {
-    int arr[] = {8,4,9,5,7,6,3,2},i;
+    int arr[] = {8,4,9,5,7,6,3,2};
     inser(arr,8);
     
     for(int i=0; i < 8; i++){
